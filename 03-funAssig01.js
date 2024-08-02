@@ -16,7 +16,7 @@ console.log("============= 2 ===============");
 function personalDetails(firstName,lastName,collegeName) {
     console.log("My firstname is :",firstName);
     console.log("My lastname is :",lastName);
-    console.log("My firstname is :",collegeName);
+    console.log("My College Name is :",collegeName);
 }
 personalDetails("Saies","Shaikh","SANGOLA COLLEGE SANGOLA");
 
