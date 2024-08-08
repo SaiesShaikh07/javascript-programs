@@ -34,7 +34,8 @@ function wordLength(num) {
     var check=result%2==0 ? "even" : "odd" ;
    return check;
     
-    
+   
+   
     
 }
 var result=wordLength("javascript");
@@ -45,3 +46,5 @@ console.log(`The word "developer" has ${result} length.` );
 
 var result=wordLength("Google");
 console.log(`The word "Google" has ${result} length.` );
+
+
