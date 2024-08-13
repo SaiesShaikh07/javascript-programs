@@ -29,7 +29,7 @@ cubeAddition();
 console.log("================================ function to get odd positioned chars without empty space ============================================");
 function oddPositionedChars(sentence) {
     for (let i = 0; i <=sentence.length; i++) {
-        if (i%2==1 && sentence.charAt(i)!=" ") {
+        if (i%2==1 && sentence.charAt(i)!==" ") {
     
             console.log(`characters at odd position ${i} =`,sentence.charAt(i));  
 
@@ -39,3 +39,17 @@ function oddPositionedChars(sentence) {
 }
 oddPositionedChars("Hard work always pays back");
 oddPositionedChars("Soon I will be UI IT Champ");
+// function oddPositionedChars(sentence) {
+//     let result = ''; // Initialize an empty string to store the result
+
+//     for (let i = 0; i < sentence.length; i++) {
+//         if (i % 2 ==1 && sentence.charAt(i) != ' ') { 
+//             result += " "+ sentence.charAt(i); // Add each valid character to the result string
+//         }
+//     }
+
+//     console.log(`character at odd position = `,result); // Log the final result string on the same line
+// }
+
+// oddPositionedChars("Hard work always pays back");
+// oddPositionedChars("Soon I will be UI IT Champ");
