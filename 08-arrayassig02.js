@@ -8,7 +8,8 @@ console.log(`first Element : `, array[0] +` & last element : `, array[array.leng
 console.log("                                                            ");
 
 console.log(`======================== 3.Log the third last element using length property ==============================`);
-var result=array.splice(array.length-3,1);
+const array1 = [ 20, 31, 40, 25, 23, 11, 29, 9, 60, 2, 11 ];
+var result=array1.splice(array1.length-3,1);
 console.log(`the third last element =`,result);
 console.log("                                                            ");
 
@@ -35,7 +36,8 @@ for (let index = 0; index < array.length; index++) {
   if (index%2==0) {
     const element = array[index];
     add=add+element;
-
+    
+     
   }
   
 }

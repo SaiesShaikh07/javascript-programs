@@ -9,6 +9,7 @@ console.log(mySet);
 
 console.log(mySet.size);
 mySet.delete(20);
+
 console.log(mySet);
 
 console.log(mySet.has(100));
