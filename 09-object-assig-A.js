@@ -1,5 +1,6 @@
+console.log(" ");
  console.log(`==================================== 1,2,3,4.Create an object with the name 'professor'====================================`);
-let professor = {
+ let professor = {
     name: "Dr.Samir Khan",
     age: 45,
     department: "Computer Science",
