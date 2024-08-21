@@ -39,5 +39,3 @@ console.log(`======================== 8.Only select last 3 element and log on co
 var result=fruits.slice(fruits.length-3);
 console.log(` last 3 element`,result);
 console.log("                                                            ");
-
-
