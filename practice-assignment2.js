@@ -79,5 +79,36 @@ const str14 = "I am passionate software developer";
 console.log(`Word count for: "${str14}" is ${wordCount(str14)}`);
 
 
+console.log(`--------------------[ Q10. program to find duplicate character ]---------------------`);
+function duplicateCharCount(str) {
+    str = str.toLowerCase();
+    let charCount = {};
+
+    for (let char of str) {
+        if (char >= 'a' && char <= 'z') { 
+            charCount[char] = (charCount[char] || 0) + 1;
+        }
+    }
+
+   
+    for (let char in charCount) {
+        if (charCount[char] > 1) {
+            console.log(`${char} - ${charCount[char]}`);
+        }
+    }
+}
+
+console.log(`The duplicate character in "Banana" with Count are: - `);
+duplicateCharCount("Banana"); 
+console.log(" ");
+
+console.log(`The duplicate character in "Apple" with Count are: - `);
+duplicateCharCount("Apple");
+console.log(" ");
+
+console.log(`The duplicate character in "Software Developer" with Count are: - `);
+duplicateCharCount("Software Developer"); 
+console.log(" ");
+
 
 
