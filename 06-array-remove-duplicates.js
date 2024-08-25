@@ -15,7 +15,7 @@ console.log(" ");
 console.log(`================ [ convert the string into given  pattern ] ================`);
 console.log(" ");
 
-const str="How ary you mate";
+const str="How are you mate";
 let result="";
 
 for (let i = 0; i < str.length; i++) {
