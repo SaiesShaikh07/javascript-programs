@@ -4,6 +4,7 @@ console.log("[------------------------ [ 1 ] -------------------------]");
 const arrayAdd = arrayNumber.map((element)=>{
     return element+10;
 });
+
 console.log(`Add 10 in each element = [${arrayAdd}]`);
 console.log(" ");
 
